@@ -9,7 +9,7 @@ version: 2
 name: 이동준
 title: Machine Learning Engineer
 email: scvzl6011@gmail.com
-website: https://velog.io/@djlee6011
+# website: https://velog.io/@djlee6011
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -31,9 +31,9 @@ github_username: hyanghoa
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: velog
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://velog.io/@djlee6011
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
