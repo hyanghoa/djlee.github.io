@@ -80,7 +80,7 @@ content:
       - layout: left
         title: DB
         description: | # this will include new lines to allow paragraphs
-          - PostgreSQM
+          - PostgreSQL
           - MySQL
 
       - layout: left
