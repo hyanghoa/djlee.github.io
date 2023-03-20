@@ -52,23 +52,28 @@ about_content: | # this will include new lines to allow paragraphs
   
   Django, MySQL, PostgreSQL, Pytorch, Python, Git, Linux 등을 사용하여 서비스를 설계, 개발한 경험으로
   
-  다른 동료들과 함께 협업하기 쉬울 수 있도록 가독성 좋은 클린한 코드를 만들고, 확장성과 유지 보수가 잘 될 수 있는 코드를 위해 노력하고 있습니다.
+  다른 동료들과 함께 협업하기 쉬울 수 있도록 가독성 좋은 클린한 코드를 만들고,
+  
+  확장성과 유지 보수가 잘 될 수 있는 코드를 위해 노력하고 있습니다.
 
-  Skill: <mark>Django</mark>, <mark>MySQL</mark>, <mark>PostgreSQL</mark>, <mark>Pytorch</mark>, <mark>Python</mark>, <mark>Git</mark>, <mark>Linux</mark>
+  Skill: <mark>Django</mark> <mark>MySQL</mark> <mark>PostgreSQL</mark> <mark>Pytorch</mark> <mark>Python</mark> <mark>Git</mark> <mark>Linux</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 코드 유사성 판단\nAI 경진대회
+        title: |
+          코드 유사성 판단
+          
+          AI 경진대회
         sub_title: 데이콘
-        link: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
-        link_text: jupyter notebook link
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
+        # link: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
+        # link_text: jupyter notebook link
+        additional_links:
+          - title:  jupyter notebook
+            icon: fab fa-github
+            url: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -90,10 +95,19 @@ content:
           Model: <mark>GraphCodeBERT</mark>
       
       - layout: left
-        title: Computer Vision\n이상치 탐지\n알고리즘 경진대회
+        title: | 
+          Computer Vision
+          
+          이상치 탐지
+          
+          알고리즘 경진대회
         sub_title: 데이콘
-        link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
-        link_text: jupyter notebook link
+        # link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
+        # link_text: jupyter notebook link
+        additional_links:
+          - title:  jupyter notebook
+            icon: fab fa-github
+            url: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
         quote: >
           사물의 종류를 분류하고, 정상 샘플과 비정상(이상치) 샘플을 분류
         description: | # this will include new lines to allow paragraphs
@@ -112,10 +126,17 @@ content:
           Model: <mark>Efficientnetv2-m</mark>
 
       - layout: left
-        title: 작물 병해 분류\nAI 경진대회
+        title: | 
+          작물 병해 분류
+          
+          AI 경진대회
         sub_title: 데이콘
-        link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
-        link_text: jupyter notebook link
+        # link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
+        # link_text: jupyter notebook link
+        additional_links:
+          - title:  jupyter notebook
+            icon: fab fa-github
+            url: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
         quote: >
           병해 판별 및 처방에 도움을 줄 수 있는 인공지능 기술 개발
         description: | # this will include new lines to allow paragraphs
@@ -140,10 +161,27 @@ content:
         # link_text: boringcompany.com
         sub_title: 이미지 AI 개발자
         caption: 2022.08 - 현재
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        # quote: >
+          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            웹 개발
+            - 대시보드 확인 가능
+            - 학습 및 추론 가능
+
+            모델 통합 프레임워크 개발
+            - MVTecAD 데이터셋 벤치마크 상위권 모델들과 self-supervised learning을 적용해서 전체 학습 및 결과 확인
+            - optuna를 적용해서 자동 하이퍼파라미터 탐색할 수 있도록 적용
+
+            생산기지 BOG 최적가동 예측 모델 개발 경진대회
+            - [BOG 최적가동 예측 부문 스타트업 최우수상](https://aifactory.space/competition/detail/2105)
+            - [기사](https://news.mt.co.kr/mtview.php?no=2022121513031813723)
+
+            논문 리뷰
+            - 이미지 및 비디오, self-supervised learning
+
+            코드 적용
+            - Image Anomaly Detection 모델에 self-supervised learning 적용
+            
 
       - layout: left
         title: 써로마인드
@@ -151,40 +189,82 @@ content:
         # link_text: boringcompany.com
         sub_title: 머신러닝 엔지니어
         caption: 2020.10 - 2021.07
-        quote: >
-          AI Web Platform
+        # quote: >
+        # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
+            AI Web Platform:
             - 데이터 어노테이션, 전처리부터, 학습 및 추론까지 할 수 있는 웹
-        quote: >
-          교통안전
-        description: | # this will include new lines to allow paragraphs
+
+            교통안전
             - 사람 얼굴 방향 분류, 스마트 폰 및 담배 디텍션 교통안전 정부과제
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: 산업융합형 인공지능 청년혁신가 양성과정
+        caption: 2020.05 - 2020.11
+        sub_title: 한국표준협회
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          인공지능에 대해서 배우는 과정입니다.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          기초적인 C, Java, Python 프로그래밍 언어와,
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+          서버를 구축하는 방법, 머신러닝과 딥러닝 이론, 이미지 처리방법에 대해서 배우는 과정입니다.
+      
+      - layout: left
+        title: 드론을 활용한 IoT 고급 인재 양성 과정
+        caption: 2019.09 - 2019.11
+        sub_title: 한국소프트웨어산업협회
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - [시연 영상](https://drive.google.com/file/d/1LIV8BPOWmGjsjz0nctvDoHR8iXIrVXzq/view)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+          이 과정을 통해서 "드론을 활용한 화재 초기진압 및 정찰" 이라는 프로젝트를 진행했었습니다.
+
+          화재를 발견한 사람이 저희가 만든 웹을 통해서 화재 위치를 지도에서 찍고 신고를 할 수 있고,
+
+          신고를 받은 관리자 웹페이지 화면에서 드론으로 다시 데이터를 보내고,
+
+          GCS 프로그램을 통해서 드론을 조종해서 화재위치로 이동 할 수 있는 프로젝트입니다.
+
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          - Django
+      
+      - layout: left
+        title: DB
+        description: | # this will include new lines to allow paragraphs
+          - PostgreSQM
+          - MySQL
+      
+      - layout: left
+        title: Machine Learning
+        description: | # this will include new lines to allow paragraphs
+          - Pytorch
+          - Pandas
+          - Numpy
+          - Scikit-learn
+          - Opencv-python
+          - jupyter
+
+      - layout: left
+        title: Etc
+        description: | # this will include new lines to allow paragraphs
+          - Ubuntu
+          - Docker
+          - Git / Github
+          - Vim
+          - VS Code
+          - Redmine
+          - Slack
 
 # Footer
 footer_show_references: true
