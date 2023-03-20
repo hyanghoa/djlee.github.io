@@ -48,29 +48,31 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  웹 서비스 백엔드 개발과 스타트업 개발자로서의 다양한 경험이 있습니다. Django, PostgreSQL, Pytorch, Python, Git, Linux 등을 사용하여 서비스를 설계, 개발한 경험으로 다른 동료들과 함께 협업하기 쉬울 수 있도록 가독성 좋은 클린한 코드를 만들고, 확장성과 유지 보수가 잘 될 수 있는 코드를 위해 노력하고 있습니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Skill: <mark>Django</mark>, <mark>PostgreSQL</mark>, <mark>Pytorch</mark>, <mark>Python</mark>, <mark>Git</mark>, <mark>Linux</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        title: [데이콘] 코드 유사성 판단 AI 경진 대회
+        link: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
+        link_text: jupyter notebook link
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          두 코드간 유사성(동일 결과물 산출 가능한지) 여부를 판단할 수 있는 AI 알고리즘을 개발
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          주어진 두개의 코드 스크립트를 비교해서 같은 결과를 가질 수 있는지 판단하는 인공지능 모델을 개발하는 대회입니다.
+          코드에서 주석이나 import 같은 의미 없는 부분을 제거하는 등의 전처리를 적용했고,
+          제일 비슷한 data 환경에서 학습된 <mark>GraphCodeBERT</mark>를 사용했습니다.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
