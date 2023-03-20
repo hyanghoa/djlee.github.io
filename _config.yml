@@ -126,7 +126,7 @@ content:
 
       - layout: left
         title: 써로마인드
-        link: https://surromind.ai/
+        link: https://surromind.ai
         # link_text: boringcompany.com
         sub_title: 머신러닝 엔지니어
         caption: 2020.10 - 2021.07
