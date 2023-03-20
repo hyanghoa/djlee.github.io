@@ -59,98 +59,40 @@ about_content: | # this will include new lines to allow paragraphs
   Skill: <mark>Django</mark> <mark>MySQL</mark> <mark>PostgreSQL</mark> <mark>Pytorch</mark> <mark>Python</mark> <mark>Git</mark> <mark>Linux</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: |
-          코드 유사성 판단
-          
-          AI 경진대회
-        sub_title: 데이콘
-        # link: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
-        # link_text: jupyter notebook link
-        additional_links:
-          - title:  jupyter notebook
-            icon: fab fa-github
-            url: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          두 코드간 유사성(동일 결과물 산출 가능한지) 여부를 판단할 수 있는 AI 알고리즘을 개발
+        title: Machine Learning
         description: | # this will include new lines to allow paragraphs
-          주어진 두개의 코드 스크립트를 비교해서 같은 결과를 가질 수 있는지 판단하는 인공지능 모델을 개발하는 대회입니다.
-          
-          코드에서 주석이나 import 같은 의미 없는 부분을 제거하는 등의 전처리를 적용했고,
-          
-          제일 비슷한 환경에서 학습된 GraphCodeBERT를 사용했습니다.
+          - Pytorch
+          - Pandas
+          - Numpy
+          - Scikit-learn
+          - Opencv-python
+          - jupyter
 
-          Result
-
-          순위: <mark>16/337</mark>
-
-          상위: <mark>10%</mark>
-
-          Model: <mark>GraphCodeBERT</mark>
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          - Django
       
       - layout: left
-        title: | 
-          Computer Vision
-          
-          이상치 탐지
-          
-          알고리즘 경진대회
-        sub_title: 데이콘
-        # link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
-        # link_text: jupyter notebook link
-        additional_links:
-          - title:  jupyter notebook
-            icon: fab fa-github
-            url: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
-        quote: >
-          사물의 종류를 분류하고, 정상 샘플과 비정상(이상치) 샘플을 분류
+        title: DB
         description: | # this will include new lines to allow paragraphs
-          MVTecAD 데이터셋이 주어지고, 각각의 클래스의 정상 및 여러가지 비정상 종류를 분류하는 모델을 개발하는 대회입니다.
-          
-          여러가지 backbone을 사용해본 결과 EfficientNet이 제일 성능이 좋았고,
-          
-          정상과 비정상 클래스간 불균형을 해결하기 위한 방법으로 TADE 기법을 적용했습니다.
-
-          Result
-
-          순위: <mark>15/481</mark>
-
-          상위: <mark>4%</mark>
-
-          Model: <mark>Efficientnetv2-m</mark>
+          - PostgreSQM
+          - MySQL
 
       - layout: left
-        title: | 
-          작물 병해 분류
-          
-          AI 경진대회
-        sub_title: 데이콘
-        # link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
-        # link_text: jupyter notebook link
-        additional_links:
-          - title:  jupyter notebook
-            icon: fab fa-github
-            url: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
-        quote: >
-          병해 판별 및 처방에 도움을 줄 수 있는 인공지능 기술 개발
+        title: Etc
         description: | # this will include new lines to allow paragraphs
-          병해 피해를 입은 작물 사진을 통해 병해를 진단할 수 있는 모델을 개발하는 대회입니다.
-
-          미세한 부분까지 잘 잡아낼 수 있는 Swin transformer를 채용해서 학습을 했습니다.
-
-          Result
-
-          순위: <mark>13/170</mark>
-
-          상위: <mark>10%</mark>
-
-          Model: <mark>Swin transformer</mark>
+          - Ubuntu
+          - Docker
+          - Git / Github
+          - Vim
+          - VS Code
+          - Redmine
+          - Slack
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -181,7 +123,6 @@ content:
 
             코드 적용
             - Image Anomaly Detection 모델에 self-supervised learning 적용
-            
 
       - layout: left
         title: 써로마인드
@@ -197,6 +138,146 @@ content:
 
             교통안전
             - 사람 얼굴 방향 분류, 스마트 폰 및 담배 디텍션 교통안전 정부과제
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 코스포 x 데이콘 자동차 충돌 분석 AI경진대회
+        sub_title: 데이콘
+        # link: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
+        # link_text: jupyter notebook link
+        additional_links:
+          - title:  jupyter notebook
+            icon: fab fa-github
+            url: https://github.com/hyanghoa/dacon_tool/blob/main/car_crash/baseline.ipynb
+          - title:  leaderboard
+            icon: fas fa-globe
+            url: https://dacon.io/competitions/official/236064/leaderboard
+        quote: >
+          블랙박스 영상의 자동차 충돌 분석 AI 알고리즘 개발
+        description: | # this will include new lines to allow paragraphs
+          10프레임, 5초 분량의 블랙박스 영상(mp4)들을 입력으로 받아 자동차 충돌 상황을 분석하여,
+
+          이를 13가지 상황(Class)으로 분류하는 AI 모델을 개발하는 대회입니다.
+          
+          차량 충돌 상황에 따라 충돌 여부(yes, no), 사고 휘말린 여부(yes, no), 날씨(normal, snow, rainy), 시간(낮/밤)으로
+          
+          작은 task로 각각 classification 모델을 만들었습니다.
+          
+          pre-trained 모델은 MViTv2-S를 사용했습니다.
+
+          Result
+
+          순위: <mark>31/449</mark>
+
+          상위: <mark>10%</mark>
+
+          Model: <mark>MViTv2-S</mark>
+
+      - layout: left
+        title: 자율주행 센서의 안테나 성능 예측 AI 경진대회
+        sub_title: 데이콘
+        # link: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
+        # link_text: jupyter notebook link
+        additional_links:
+          - title:  leaderboard
+            icon: fas fa-globe
+            url: https://dacon.io/competitions/official/235927/leaderboard
+        quote: >
+          공정 데이터를 활용하여 Radar 센서의 안테나 성능 예측을 위한 AI 모델 개발
+        description: | # this will include new lines to allow paragraphs
+          tabular 데이터를 이용해서 예측하는 대회입니다.
+
+          모델은 LightGBM을 사용했습니다.
+
+          Result
+
+          순위: <mark>26/975</mark>
+
+          상위: <mark>3%</mark>
+
+          Model: <mark>LightGBM</mark>
+
+      - layout: left
+        title: 코드 유사성 판단 AI 경진대회
+        sub_title: 데이콘
+        # link: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
+        # link_text: jupyter notebook link
+        additional_links:
+          - title:  jupyter notebook
+            icon: fab fa-github
+            url: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
+          - title:  leaderboard
+            icon: fas fa-globe
+            url: https://dacon.io/competitions/official/235900/leaderboard
+        quote: >
+          두 코드간 유사성(동일 결과물 산출 가능한지) 여부를 판단할 수 있는 AI 알고리즘을 개발
+        description: | # this will include new lines to allow paragraphs
+          주어진 두개의 코드 스크립트를 비교해서 같은 결과를 가질 수 있는지 판단하는 인공지능 모델을 개발하는 대회입니다.
+          
+          코드에서 주석이나 import 같은 의미 없는 부분을 제거하는 등의 전처리를 적용했고,
+          
+          제일 비슷한 환경에서 학습된 GraphCodeBERT를 사용했습니다.
+
+          Result
+
+          순위: <mark>16/337</mark>
+
+          상위: <mark>10%</mark>
+
+          Model: <mark>GraphCodeBERT</mark>
+      
+      - layout: left
+        title: Computer Vision 이상치 탐지 알고리즘 경진대회
+        sub_title: 데이콘
+        # link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
+        # link_text: jupyter notebook link
+        additional_links:
+          - title:  jupyter notebook
+            icon: fab fa-github
+            url: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
+          - title:  leaderboard
+            icon: fas fa-globe
+            url: https://dacon.io/competitions/official/235894/leaderboard
+        quote: >
+          사물의 종류를 분류하고, 정상 샘플과 비정상(이상치) 샘플을 분류
+        description: | # this will include new lines to allow paragraphs
+          MVTecAD 데이터셋이 주어지고, 각각의 클래스의 정상 및 여러가지 비정상 종류를 분류하는 모델을 개발하는 대회입니다.
+          
+          여러가지 backbone을 사용해본 결과 EfficientNet이 제일 성능이 좋았고,
+          
+          정상과 비정상 클래스간 불균형을 해결하기 위한 방법으로 TADE 기법을 적용했습니다.
+
+          Result
+
+          순위: <mark>15/481</mark>
+
+          상위: <mark>4%</mark>
+
+          Model: <mark>Efficientnetv2-m</mark>
+
+      - layout: left
+        title: 작물 병해 분류 AI 경진대회
+        sub_title: 데이콘
+        additional_links:
+          - title:  leaderboard
+            icon: fas fa-globe
+            url: https://dacon.io/competitions/official/235842/leaderboard
+        quote: >
+          병해 판별 및 처방에 도움을 줄 수 있는 인공지능 기술 개발
+        description: | # this will include new lines to allow paragraphs
+          병해 피해를 입은 작물 사진을 통해 병해를 진단할 수 있는 모델을 개발하는 대회입니다.
+
+          미세한 부분까지 잘 잡아낼 수 있는 Swin transformer를 채용해서 학습을 했습니다.
+
+          Result
+
+          순위: <mark>13/170</mark>
+
+          상위: <mark>10%</mark>
+
+          Model: <mark>Swin transformer</mark>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -230,41 +311,6 @@ content:
           신고를 받은 관리자 웹페이지 화면에서 드론으로 다시 데이터를 보내고,
 
           GCS 프로그램을 통해서 드론을 조종해서 화재위치로 이동 할 수 있는 프로젝트입니다.
-
-  - title: Skill # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Backend
-        description: | # this will include new lines to allow paragraphs
-          - Django
-      
-      - layout: left
-        title: DB
-        description: | # this will include new lines to allow paragraphs
-          - PostgreSQM
-          - MySQL
-      
-      - layout: left
-        title: Machine Learning
-        description: | # this will include new lines to allow paragraphs
-          - Pytorch
-          - Pandas
-          - Numpy
-          - Scikit-learn
-          - Opencv-python
-          - jupyter
-
-      - layout: left
-        title: Etc
-        description: | # this will include new lines to allow paragraphs
-          - Ubuntu
-          - Docker
-          - Git / Github
-          - Vim
-          - VS Code
-          - Redmine
-          - Slack
 
 # Footer
 footer_show_references: true
