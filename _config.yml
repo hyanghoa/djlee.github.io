@@ -57,7 +57,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 코드 유사성 판단 AI 경진 대회
+        title: 코드 유사성 판단 AI 경진대회
+        sub_title: 데이콘
         link: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
         link_text: jupyter notebook link
         # additional_links:
@@ -72,7 +73,53 @@ content:
         description: | # this will include new lines to allow paragraphs
           주어진 두개의 코드 스크립트를 비교해서 같은 결과를 가질 수 있는지 판단하는 인공지능 모델을 개발하는 대회입니다.
           코드에서 주석이나 import 같은 의미 없는 부분을 제거하는 등의 전처리를 적용했고,
-          제일 비슷한 data 환경에서 학습된 <mark>GraphCodeBERT</mark>를 사용했습니다.
+          제일 비슷한 환경에서 학습된 GraphCodeBERT를 사용했습니다.
+
+          Result
+
+          순위: <mark>16/337</mark>
+
+          상위: <mark>10%</mark>
+
+          Model: <mark>GraphCodeBERT</mark>
+      
+      - layout: left
+        title: Computer Vision 이상치 탐지 알고리즘 경진대회
+        sub_title: 데이콘
+        link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
+        link_text: jupyter notebook link
+        quote: >
+          사물의 종류를 분류하고, 정상 샘플과 비정상(이상치) 샘플을 분류
+        description: | # this will include new lines to allow paragraphs
+          MVTecAD 데이터셋이 주어지고, 각각의 클래스의 정상 및 여러가지 비정상 종류를 분류하는 모델을 개발하는 대회입니다.
+          여러가지 backbone을 사용해본 결과 EfficientNet이 제일 성능이 좋았고, 정상과 비정상 클래스간 불균형을 해결하기 위한 방법으로 TADE 기법을 적용했습니다.
+
+          Result
+
+          순위: <mark>15/481</mark>
+
+          상위: <mark>4%</mark>
+
+          Model: <mark>Efficientnetv2-m</mark>
+
+      - layout: left
+        title: 작물 병해 분류 AI 경진대회
+        sub_title: 데이콘
+        link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
+        link_text: jupyter notebook link
+        quote: >
+          병해 판별 및 처방에 도움을 줄 수 있는 인공지능 기술 개발
+        description: | # this will include new lines to allow paragraphs
+          병해 피해를 입은 작물 사진을 통해 병해를 진단할 수 있는 모델을 개발하는 대회입니다.
+          미세한 부분까지 잘 잡아낼 수 있는 Swin transformer를 채용해서 학습을 했습니다.
+
+          Result
+
+          순위: <mark>13/170</mark>
+
+          상위: <mark>10%</mark>
+
+          Model: <mark>Swin transformer</mark>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
