@@ -90,12 +90,7 @@ content:
           Model: <mark>GraphCodeBERT</mark>
       
       - layout: left
-        title:
-        Computer Vision
-        
-        이상치 탐지
-        
-        알고리즘 경진대회
+        title: Computer Vision\n이상치 탐지\n알고리즘 경진대회
         sub_title: 데이콘
         link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
         link_text: jupyter notebook link
@@ -117,10 +112,7 @@ content:
           Model: <mark>Efficientnetv2-m</mark>
 
       - layout: left
-        title:
-        작물 병해 분류
-        
-        AI 경진대회
+        title: 작물 병해 분류\nAI 경진대회
         sub_title: 데이콘
         link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
         link_text: jupyter notebook link
@@ -143,8 +135,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title:
-        아임토리
+        title: 아임토리
         link: https://www.aimtory.com
         # link_text: boringcompany.com
         sub_title: 이미지 AI 개발자
@@ -155,8 +146,7 @@ content:
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
       - layout: left
-        title:
-        써로마인드
+        title: 써로마인드
         link: https://surromind.ai/
         # link_text: boringcompany.com
         sub_title: 머신러닝 엔지니어
