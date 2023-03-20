@@ -48,16 +48,23 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  웹 서비스 백엔드 개발과 스타트업 개발자로서의 다양한 경험이 있습니다. Django, PostgreSQL, Pytorch, Python, Git, Linux 등을 사용하여 서비스를 설계, 개발한 경험으로 다른 동료들과 함께 협업하기 쉬울 수 있도록 가독성 좋은 클린한 코드를 만들고, 확장성과 유지 보수가 잘 될 수 있는 코드를 위해 노력하고 있습니다.
+  웹 서비스 백엔드 개발과 스타트업 개발자로서의 다양한 경험이 있습니다.
+  
+  Django, MySQL, PostgreSQL, Pytorch, Python, Git, Linux 등을 사용하여 서비스를 설계, 개발한 경험으로
+  
+  다른 동료들과 함께 협업하기 쉬울 수 있도록 가독성 좋은 클린한 코드를 만들고, 확장성과 유지 보수가 잘 될 수 있는 코드를 위해 노력하고 있습니다.
 
-  Skill: <mark>Django</mark>, <mark>PostgreSQL</mark>, <mark>Pytorch</mark>, <mark>Python</mark>, <mark>Git</mark>, <mark>Linux</mark>
+  Skill: <mark>Django</mark>, <mark>MySQL</mark>, <mark>PostgreSQL</mark>, <mark>Pytorch</mark>, <mark>Python</mark>, <mark>Git</mark>, <mark>Linux</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 코드 유사성 판단 AI 경진대회
+        title:
+        코드 유사성 판단
+        
+        AI 경진대회
         sub_title: 데이콘
         link: https://github.com/hyanghoa/dacon_tool/blob/main/code_similarity/baseline_pytorch.ipynb
         link_text: jupyter notebook link
@@ -72,7 +79,9 @@ content:
           두 코드간 유사성(동일 결과물 산출 가능한지) 여부를 판단할 수 있는 AI 알고리즘을 개발
         description: | # this will include new lines to allow paragraphs
           주어진 두개의 코드 스크립트를 비교해서 같은 결과를 가질 수 있는지 판단하는 인공지능 모델을 개발하는 대회입니다.
+          
           코드에서 주석이나 import 같은 의미 없는 부분을 제거하는 등의 전처리를 적용했고,
+          
           제일 비슷한 환경에서 학습된 GraphCodeBERT를 사용했습니다.
 
           Result
@@ -84,7 +93,12 @@ content:
           Model: <mark>GraphCodeBERT</mark>
       
       - layout: left
-        title: Computer Vision 이상치 탐지 알고리즘 경진대회
+        title:
+        Computer Vision
+        
+        이상치 탐지
+        
+        알고리즘 경진대회
         sub_title: 데이콘
         link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
         link_text: jupyter notebook link
@@ -92,7 +106,10 @@ content:
           사물의 종류를 분류하고, 정상 샘플과 비정상(이상치) 샘플을 분류
         description: | # this will include new lines to allow paragraphs
           MVTecAD 데이터셋이 주어지고, 각각의 클래스의 정상 및 여러가지 비정상 종류를 분류하는 모델을 개발하는 대회입니다.
-          여러가지 backbone을 사용해본 결과 EfficientNet이 제일 성능이 좋았고, 정상과 비정상 클래스간 불균형을 해결하기 위한 방법으로 TADE 기법을 적용했습니다.
+          
+          여러가지 backbone을 사용해본 결과 EfficientNet이 제일 성능이 좋았고,
+          
+          정상과 비정상 클래스간 불균형을 해결하기 위한 방법으로 TADE 기법을 적용했습니다.
 
           Result
 
@@ -103,7 +120,10 @@ content:
           Model: <mark>Efficientnetv2-m</mark>
 
       - layout: left
-        title: 작물 병해 분류 AI 경진대회
+        title:
+        작물 병해 분류
+        
+        AI 경진대회
         sub_title: 데이콘
         link: https://github.com/hyanghoa/dacon_tool/blob/main/anomaly-classification/baseline.ipynb
         link_text: jupyter notebook link
@@ -111,6 +131,7 @@ content:
           병해 판별 및 처방에 도움을 줄 수 있는 인공지능 기술 개발
         description: | # this will include new lines to allow paragraphs
           병해 피해를 입은 작물 사진을 통해 병해를 진단할 수 있는 모델을 개발하는 대회입니다.
+
           미세한 부분까지 잘 잡아낼 수 있는 Swin transformer를 채용해서 학습을 했습니다.
 
           Result
@@ -125,15 +146,32 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title:
+        아임토리
+        link: https://www.aimtory.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: 이미지 AI 개발자
+        caption: 2022.08 - 현재
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+      - layout: left
+        title:
+        써로마인드
+        link: https://surromind.ai/
+        # link_text: boringcompany.com
+        sub_title: 머신러닝 엔지니어
+        caption: 2020.10 - 2021.07
+        quote: >
+          AI Web Platform
+        description: | # this will include new lines to allow paragraphs
+            - 데이터 어노테이션, 전처리부터, 학습 및 추론까지 할 수 있는 웹
+        quote: >
+          교통안전
+        description: | # this will include new lines to allow paragraphs
+            - 사람 얼굴 방향 분류, 스마트 폰 및 담배 디텍션 교통안전 정부과제
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
